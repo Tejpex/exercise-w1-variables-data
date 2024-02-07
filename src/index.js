@@ -2,9 +2,9 @@
 1) (This has a DEMO solution.)
 Create a variable that stores the name of your cafe.
 Print out a greeting such as "Welcome to Technigo Cafe! What would you like to order today?"
-Where echnigo Cafe is replaced by the name of your cafe that is stored in the variable.
+Where Technigo Cafe is replaced by the name of your cafe that is stored in the variable.
 */
-const cafeName = "Technigo Cafe";
+const cafeName = "Coffee Cafe";
 console.log(`Welcome to ${cafeName}! What would you like to order today?`);
 
 /*
@@ -58,3 +58,5 @@ Then figure out a way to replace the word "summer" in the string with the word "
 Should give you => "Today we have a special winter deal!"
 (check for a specific string method...)
 */
+let deal = "Today We Have a Special summer deal!";
+console.log(deal.toLowerCase(0));
