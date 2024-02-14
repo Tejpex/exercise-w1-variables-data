@@ -4,9 +4,11 @@ Create a variable that stores the name of your cafe.
 Print out a greeting such as "Welcome to Technigo Cafe! What would you like to order today?"
 Where Technigo Cafe is replaced by the name of your cafe that is stored in the variable.
 */
-const cafeName = "Coffee Cafe";
-console.log(`Welcome to ${cafeName}! What would you like to order today?`);
 
+const greeting = (cafeName) => {
+  alert("Welcome to " + cafeName +"! What would you like to order today?");
+}
+greeting ("Coffee Place")
 /*
 2)
 Create a variable that stores the price of a coffee.
